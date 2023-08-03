@@ -1,3 +1,5 @@
+import resume from "../assets/files/Tjandra_Putra_Resume.pdf";
+
 export const menuLinks = [
   {
     title: "Email",
@@ -17,7 +19,7 @@ export const menuLinks = [
     title: "Resume",
     description: "My resume",
     icon: "fa-regular fa-file",
-    link: "https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto",
+    link: resume,
     external: false,
   },
   {

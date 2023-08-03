@@ -6,11 +6,11 @@
 :root {
   --font-inter: "Inter", sans-serif;
   --font-sriracha: "Sriracha", cursive;
-  --color-beet: #991b1b;
+  --color-water: #1c4586;
 }
 
 body {
-  font-family: var(--font-sriracha);
+  font-family: var(--font-sriracha) !important;
 
   /* background: #1f4037;
   background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);

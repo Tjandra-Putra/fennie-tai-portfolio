@@ -1,0 +1,17 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore npm's cache
+npm-debug.log
+yarn-error.log
+
+# Ignore any built files or assets
+dist/
+build/
+*.log
+*.zip
+*.tar.gz
+
+# Ignore any secrets or environment-specific files
+.env
+.env.*

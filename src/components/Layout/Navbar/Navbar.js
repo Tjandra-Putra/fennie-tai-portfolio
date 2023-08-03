@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className={style.navbar}>
       <Badge title="portfolio" theme="strawberry" />
       <DropDownButton title="Menu" icon="fa-solid fa-layer-group" links={menuLinks} />
-      <Button title="Resume" icon="fa-regular fa-circle-down" link={resume} />
+      <Button title="Resume" icon="fa-solid fa-cloud-arrow-down" link={resume} />
     </div>
   );
 };
