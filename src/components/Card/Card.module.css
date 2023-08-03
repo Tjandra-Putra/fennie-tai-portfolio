@@ -1,0 +1,32 @@
+.card {
+  width: 96%;
+  border: 1px solid black;
+  min-height: 50vh;
+  border-radius: 23px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardBodyTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.list {
+  list-style-type: disc;
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  color: var(--color-beet);
+  font-size: 1.2rem;
+}

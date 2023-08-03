@@ -1,0 +1,23 @@
+.badge {
+  padding: 0 0.8rem;
+  border-radius: 50px;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  font-family: var(--font-sriracha);
+  min-width: 4rem;
+  display: inline-block; /* Set display to inline-block to prevent full width */
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.strawberry {
+  background-color: #f93973;
+  color: #ffffff;
+}
